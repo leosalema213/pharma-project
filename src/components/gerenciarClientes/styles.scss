@@ -1,0 +1,7 @@
+@use "../../styles/variaveis";
+
+div.container-fluid {
+  background-color: variaveis.$grey;
+  padding: 30px;
+  border-radius: 10px;
+}

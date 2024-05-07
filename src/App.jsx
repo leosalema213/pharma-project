@@ -1,16 +1,13 @@
-import Formulario from "./components/form"
-import Hero from "./components/hero"
-import Main from "./components/main"
+import TelaLogin from "./pages/telaLogin"
+import Clientes from "./pages/clientes"
+
 
 function App() {
+
+
   return(
     <>
-      <Main>
-        <Hero/>
-        <div className="d-flex justify-content-center w-50 bg-primary">
-          <Formulario />
-        </div>
-      </Main>
+      <TelaLogin />
     </>
   )
 }

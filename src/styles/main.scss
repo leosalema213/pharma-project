@@ -1,0 +1,6 @@
+@use './variaveis';
+
+* {
+  font-family: variaveis.$fontPrincipal, sans-serif;
+}
+
