@@ -2,18 +2,18 @@ export const clientes = [
   { 
     id: 1,
     name: "Leonardo Patrick Salema",
-    user: "leosalemapharma",
+    user: "admin",
     email: "leo_salemapharma@hotmail.com",
     type: "administrador",
-    password: "leopharma123"
+    password: "admin"
   }, 
   {
     id: 2,
     name: "Marta tereza",
-    user: "martatere02",
+    user: "user",
     email: "martatereza@gmail.com",
     type: "comum",
-    password: "marta2324"
+    password: "user"
   },
   {
     id: 3,

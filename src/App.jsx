@@ -1,14 +1,12 @@
-import TelaLogin from "./pages/telaLogin"
-import Clientes from "./pages/clientes"
-
+import Rotas from "./routes";
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
 
-
   return(
-    <>
-      <TelaLogin />
-    </>
+    <BrowserRouter>
+       <Rotas />
+    </BrowserRouter>
   )
 }
 
