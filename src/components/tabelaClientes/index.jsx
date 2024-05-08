@@ -1,4 +1,4 @@
-import { clientes } from "../../utils/clientes"
+import { usuarios } from "../../utils/usuarios"
 import "./styles.scss"
 
 export default function TabelaClientes() {
@@ -18,7 +18,7 @@ export default function TabelaClientes() {
         </thead>
 
         <tbody className="table-group-divider">
-          {clientes.map((cliente) => (
+          {usuarios.map((cliente) => (
             <>
             <tr key={cliente.id}>
               <td className="checkbox"><input type="checkbox" className=" form-check-input" value={cliente.id}/></td>

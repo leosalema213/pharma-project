@@ -1,4 +1,4 @@
-export const clientes = [
+export const usuarios = [
   { 
     id: 1,
     name: "Leonardo Patrick Salema",
