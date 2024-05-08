@@ -9,12 +9,17 @@ https://pharma-project.vercel.app/
 
 ## Para acesssar a aplicação utilize:
 
+login
 ```bash
 usuario: admin
 senha: admin
 
 ```
+esqueci a senha
+```bash
+email: leo_salemapharma@hotmail.com
 
+```
 
 
 ## Funcionalidades
