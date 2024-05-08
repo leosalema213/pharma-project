@@ -3,6 +3,9 @@
 
 Projeto desenvolvido para processo seletivo dev Front-End
 
+## Deploy
+https://pharma-project.vercel.app/
+
 
 ## Para acesssar a aplicação utilize:
 
