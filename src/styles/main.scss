@@ -5,6 +5,7 @@
 }
 
 main {
+
   @media (max-width:767px) {
     background-image: linear-gradient(180deg, variaveis.$blue , variaveis.$blue, variaveis.$grey, variaveis.$grey);
 

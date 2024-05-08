@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import Login from './pages/login'
 import FotgotPassword from './pages/forgotPassword'
 import Register from './pages/register'
-import Clientes from './pages/clientes'
+import Users from './pages/users'
 import Home from './pages/home'
 import Produtos from './pages/produtos'
 
@@ -14,7 +14,7 @@ const Rotas = () => (
     <Route path="/remember-password" element={<FotgotPassword />}/>
     <Route path="/home" element={<Home />}/>
     <Route path="/produtos" element={<Produtos />}/>
-    <Route path='clientes' element={<Clientes/>} />
+    <Route path='/usuarios' element={<Users/>} />
   </Routes>
 )
 

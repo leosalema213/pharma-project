@@ -1,5 +1,5 @@
-import logo from "/public/logo.png"
-import animation from "/public/pharmacist-animate.svg"
+import logo from "/logo.png"
+import animation from "/pharmacist-animate.svg"
 
 import "./styles.scss"
 

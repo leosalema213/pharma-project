@@ -1,14 +1,14 @@
-import { usuarios } from "../../../utils/usuarios";
 import { useNavigate } from "react-router-dom";
 
 import { alertError } from "../../../utils/alerts";
+import { usuarios } from "../../../utils/usuarios";
 
 export default function LoginForm() {
   const navigate = useNavigate();
 
   function redirecionaUsuario(usuario) {
     if (usuario.type == "administrador") {
-      navigate("/clientes");
+      navigate("/usuarios");
     } else {
       navigate("/home");
     }

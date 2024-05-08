@@ -1,4 +1,4 @@
-import image from '/public/building-animate.svg'
+import image from '/building-animate.svg'
 
 export default function InDevelopment() {
   return(

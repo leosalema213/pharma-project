@@ -1,10 +1,10 @@
 import Header from "../components/header";
-import GerenciarClientes from "../components/gerenciarClientes";
-import TabelaClientes from "../components/tabelaClientes";
+import ManageUsers from "../components/manageUsers";
+import UserTable from "../components/userTable";
 import Footer from "../components/footer";
 
 
-export default function Clientes() {
+export default function Users() {
 
 
   return(
@@ -13,12 +13,12 @@ export default function Clientes() {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <GerenciarClientes />
+            <ManageUsers />
           </div>
         </div>
         <div className="row">
           <div className="col-12">
-              <TabelaClientes />          
+              <UserTable />          
           </div>
         </div>
       </div>

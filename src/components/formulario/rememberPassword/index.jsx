@@ -1,5 +1,6 @@
-import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
+
 import { usuarios } from "../../../utils/usuarios";
 import { alertError } from "../../../utils/alerts";
 
@@ -38,7 +39,7 @@ export default function RememberPassword() {
     const nome = getUserwithEmail(emailRecovery).name;
     alertSucess(nome)
     navigate('/')
-    
+  
   }
 
   const navigate = useNavigate();

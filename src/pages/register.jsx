@@ -1,5 +1,5 @@
-import Hero from ".././components/hero";
-import Main from ".././components/main";
+import Hero from "../components/hero";
+import Main from "../components/main";
 import RegisterForm from "../components/formulario/register";
 
 export default function Register() {

@@ -14,7 +14,8 @@ function ExitAccount() {
     showCancelButton: true,
     confirmButtonColor: "#198754",
     cancelButtonColor: "#d33",
-    confirmButtonText: "Sim, sair da conta"
+    confirmButtonText: "Sim, sair da conta",
+    cancelButtonText: "Cancelar"
   }).then((result) => {
     if (result.isConfirmed) {
       navigate('/')
@@ -38,7 +39,7 @@ function ExitAccount() {
             <Link to="/home" className="nav-link">Home</Link>
           </li>
           <li className="nav-item">
-            <Link to="/clientes" className="nav-link" >Clientes</Link>
+            <Link to="/usuarios" className="nav-link" >Usuarios</Link>
           </li>
           <li className="nav-item">
             <Link to="/produtos" className="nav-link">Produtos</Link>
