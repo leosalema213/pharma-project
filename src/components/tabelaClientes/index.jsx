@@ -32,7 +32,6 @@ export default function TabelaClientes() {
             </>
           ))}
         </tbody>
-
       </table>
   </div>
   )

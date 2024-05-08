@@ -1,7 +1,7 @@
-import { clientes } from "../../utils/clientes"
+import { clientes } from "../../../utils/clientes"
 import { useNavigate } from 'react-router-dom'
 
-export default function Login(prop) { 
+export default function LoginForm(prop) { 
 
   const navigate = useNavigate()
 
@@ -40,8 +40,8 @@ export default function Login(prop) {
 
 
   return(
-      <form onSubmit={handleSubmit} className="w-100 p-4 " >
-        <h2 className="text-dark fw-bolder text-uppercase">Login</h2>
+    <form onSubmit={handleSubmit} className="w-100 p-4 " >
+      <h2 className="text-dark fw-bolder text-uppercase">Login</h2>
       <div className="form-floating mt-2 mb-2">
         <input type="text" id="user" name="user" className="form-control" required />
         <label htmlFor="user">usuário</label>
@@ -64,7 +64,7 @@ export default function Login(prop) {
       </button>
       <p className="mt-4">
         Não tem uma conta?
-        <a onClick={prop.singup} href="#" className="link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" >
+        <a onClick={prop.signUp} href="#" className="link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" >
           Inscreva-se
         </a>
       </p> 

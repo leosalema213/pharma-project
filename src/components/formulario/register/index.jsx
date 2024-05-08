@@ -1,9 +1,9 @@
 
-export default function Formulario(prop) {
+export default function RegisterForm(prop) {
   return(
-      <form className="w-100 p-4" action="">
-        <h2 className="text-dark fw-bolder text-uppercase">Cadastre-se</h2>
-        <p className="text-body-tertiary">É rápido e fácil.</p>
+    <form className="w-100 p-4" action="">
+      <h2 className="text-dark fw-bolder text-uppercase">Cadastre-se</h2>
+      <p className="text-body-tertiary">É rápido e fácil.</p>
       <div className="form-floating">
         <input type="text" id="name" className="form-control" required />
         <label htmlFor="name">Nome</label>
@@ -26,13 +26,13 @@ export default function Formulario(prop) {
       </div> 
       <p>
         Já tem uma conta? 
-        <a onClick={prop.singin} href="#" className="link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
+        <a onClick={prop.signIn} href="#" className="link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
           Entrar
         </a>
       </p>
       <button className="btn btn-primary w-100 py-2" type="submit">
         Sign in
       </button>
-    </form>
+  </form>
   )
 }

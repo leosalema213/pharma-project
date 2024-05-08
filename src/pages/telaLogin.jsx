@@ -1,8 +1,7 @@
-import Cadastro from ".././components/cadastro"
 import Hero from ".././components/hero"
 import Main from ".././components/main"
-import Formulario from ".././components/form"
-import Login from ".././components/login"
+import RegisterForm from "../components/formulario/register"
+import LoginForm from "../components/formulario/login"
 import { useState } from "react"
 
 export default function TelaLogin() {
@@ -13,14 +12,13 @@ export default function TelaLogin() {
     <>
       <Main>
         <Hero/>
-        <Cadastro> 
-        {isRegistering == true ? (
-           <Formulario singin={() => setIsRegistering(false)} />
-        ):(
-          <Login singup={() => setIsRegistering(true)} />
-        )}
-        </Cadastro> 
-       
+        <div id="cadastro" className="d-flex justify-content-center align-items-center">
+          {isRegistering == true ? (
+            <RegisterForm signIn={() => setIsRegistering(false)} />
+          ):(
+            <LoginForm signUp={() => setIsRegistering(true)} />
+          )}
+        </div>
       </Main>
     </>
   )

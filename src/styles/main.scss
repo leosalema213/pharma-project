@@ -4,13 +4,31 @@
   font-family: variaveis.$fontPrincipal, sans-serif;
 }
 
-@media (max-width:767px) {
-  main{ 
-    background-image: linear-gradient(180deg, variaveis.$blue , variaveis.$blue, white, white);
+main {
+  @media (max-width:767px) {
+    background-image: linear-gradient(180deg, variaveis.$blue , variaveis.$blue, variaveis.$grey, variaveis.$grey);
+
     div.container {
-     
       box-shadow: none !important;
-        background-image: linear-gradient(180deg, variaveis.$blue , white);
+      background-image: linear-gradient(180deg, variaveis.$blue , variaveis.$grey);
     }
   }
 }
+
+#cadastro {
+  @media(max-width:variaveis.$md) {
+    padding: 0px;
+    width: 100% !important;
+  }
+  @media (min-width: variaveis.$md) {
+    border-left: 1px solid rgba(0, 0, 0, 0.062);
+    background-color: variaveis.$grey;
+    width: 50%;
+  }
+
+  @media(min-width:1240px) {
+    padding: 60px;
+  }
+}
+
+
