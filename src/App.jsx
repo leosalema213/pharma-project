@@ -5,7 +5,7 @@ function App() {
 
   return(
     <BrowserRouter>
-       <Rotas />
+        <Rotas />
     </BrowserRouter>
   )
 }

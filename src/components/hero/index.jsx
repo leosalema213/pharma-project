@@ -1,15 +1,18 @@
 import logo from "../../../public/logo.png"
 import animation from "../../../public/pharmacist-animate.svg"
+
+import "./styles.scss"
+
 export default function Hero() {
   return(
-    <div className="w-50 p-4">
+    <div className="hero p-4 w-50 d-flex d-md-block justify-content-center">
      <div>
         <h1>
-          <img  src={logo} alt="" />
+          <img src={logo} alt="" />
         </h1>
-        <p className="ms-5">Sua farmácia de confiança</p>
+        <p className="ps-5 w-100 d-none d-md-block">Sua farmácia de confiança</p>
      </div>
-      <img className="animate" src={animation} alt="" />
+      <img className="d-none d-md-block" src={animation} alt="" />
     </div>
   )
 }

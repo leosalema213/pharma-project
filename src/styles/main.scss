@@ -4,3 +4,13 @@
   font-family: variaveis.$fontPrincipal, sans-serif;
 }
 
+@media (max-width:767px) {
+  main{ 
+    background-image: linear-gradient(180deg, variaveis.$blue , variaveis.$blue, white, white);
+    div.container {
+     
+      box-shadow: none !important;
+        background-image: linear-gradient(180deg, variaveis.$blue , white);
+    }
+  }
+}
