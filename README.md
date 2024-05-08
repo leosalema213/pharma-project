@@ -3,8 +3,6 @@
 
 Projeto desenvolvido para processo seletivo dev Front-End
 
-Para criação deste projeto foram aplicadas Alguns principios do conceito S.O.L.I.D.
-
 
 ## Para acesssar a aplicação utilize:
 
